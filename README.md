@@ -30,7 +30,7 @@ Daytona is used as a development environment manager to streamline the developme
 1. **Install Daytona**: Follow the [Daytona installation guide](https://www.daytona.io/docs/installation/installation/).
 2. **Create the Workspace**:
    ```bash
-   daytona create https://github.com/PRASUN-SITAULA/effective-scrapper
+   daytona create https://github.com/daytonaio/sample-js-job-scaper
    ```
 3. In Text Editor/IDE, Add 8000 as forwarded port.
 3. **Start the Application**:
