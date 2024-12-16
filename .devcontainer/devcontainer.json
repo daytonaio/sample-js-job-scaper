@@ -1,0 +1,19 @@
+{
+  "name": "effective-scrapper Dev Environment",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "forwardPorts": [8000, 5173],
+  "postCreateCommand": "cd frontend && npm install && cd ../backend && npm install",
+  "containerEnv": {
+    "PUPPETEER_SKIP_CHROMIUM_DOWNLOAD": "true",
+    "PUPPETEER_EXECUTABLE_PATH": "/usr/bin/chromium"
+  },
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "javascript.validate.enable": true
+      }
+    }
+  }
+}
